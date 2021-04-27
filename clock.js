@@ -24,7 +24,7 @@ const startingTime = function () {
     var date = currentWeekDay + ", " + currentDay + " " + currentMonth + " " + currentYear;
     document.getElementById("date").innerHTML = currentDate;
 
-    var time = setTimeout(function () {
+    const time = setTimeout(function () {
         startingTime()
     }, 500);
 }
