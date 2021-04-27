@@ -1,0 +1,38 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #888;
+}
+
+.clockdate-wrapper {
+    background-color: #333;
+    padding:65px;
+    max-width:350px;
+    width:100%;
+    text-align:center;
+    border-radius:5px;
+    margin:0 auto;
+    margin-top:15%;
+}
+#clock{
+    background-color:#333;
+    font-size:60px;
+    text-shadow:0px 0px 1px #fff;
+    color: #17D4FE;
+    letter-spacing: 12px;
+}
+#clock span {
+    color:#888;
+    text-shadow:0px 0px 1px #333;
+    font-size:30px;
+    position:relative;
+    top:-27px;
+    left:-10px;
+    letter-spacing: 15px;
+}
+#date {
+    letter-spacing:9px;
+    line-height: 3ch;
+    font-size:14px;
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+}
