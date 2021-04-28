@@ -1,4 +1,4 @@
-# Modified spinner
+# Modified clock
 
 This clock is an improved one in HTML and CSS.
 
