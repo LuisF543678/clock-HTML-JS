@@ -1,12 +1,13 @@
 body {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif !important;
     background-color: #888;
+    margin-top: -100px !important;
 }
 
 .clockdate-wrapper {
     background-color: #333;
     padding:65px;
-    max-width:350px;
+    max-width:550px;
     width:100%;
     text-align:center;
     border-radius:5px;
@@ -38,5 +39,8 @@ body {
     line-height: 3ch;
     font-size:14px;
     color:#fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif !important;
+}
+.card {
+    border: 1px solid rgb(255 255 255 / 13%) !important;
 }
