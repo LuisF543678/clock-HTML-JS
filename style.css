@@ -14,17 +14,17 @@ body {
     margin:0 auto;
     margin-top:15%;
 }
+
 #clock{
     background-color:#333;
     font-size:60px;
     text-shadow:0px 0px 1px #fff;
-    /**
-       color @modified
-       color: #17D4FE;
+   /** color @modified color: #17D4FE;
     */
     color: #10ff00;
     letter-spacing: 12px;
 }
+
 #clock span {
     color:#888;
     text-shadow:0px 0px 1px #333;
@@ -34,6 +34,7 @@ body {
     left:-10px;
     letter-spacing: 15px;
 }
+
 #date {
     letter-spacing:9px;
     line-height: 3ch;
@@ -41,21 +42,21 @@ body {
     color:#fff;
     font-family: 'Raleway', sans-serif !important;
 }
+
 .card {
     border: 1px solid rgb(255 255 255 / 13%) !important;
 }
 
 .desing {
     -webkit-box-shadow: 0px 1px 20px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 1px 20px 1px rgba(0,0,0,0.75);
-box-shadow: 0px 1px 20px 1px rgba(0,0,0,0.75);
-text-align:center;
-  font-size:6.5em;
-  color:#fff;
-  letter-spacing: -7px;
-  font-weight:700;
-  text-transform:uppercase;
-  animation:blur 2s ease-out infinite;
-  text-shadow:0px 0px 5px #fff,
-      0px 0px 7px #ff0000;
+    -moz-box-shadow: 0px 1px 20px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 20px 1px rgba(0,0,0,0.75);
+    text-align:center;
+    font-size:6.5em;
+    color:#fff;
+    letter-spacing: -7px;
+    font-weight:700;
+    text-transform:uppercase;
+    animation:blur 2s ease-out infinite;
+    text-shadow:0px 0px 5px #fff, 0px 0px 7px #ff0000;
 }
