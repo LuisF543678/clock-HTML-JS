@@ -1,6 +1,8 @@
+
 /**
  * Internet clock with data, better interface and new design
  */
+
 const startingTime = function () {
     var currentDate = new Date();
     var hours = currentDate.getHours();
@@ -9,7 +11,9 @@ const startingTime = function () {
     timeSystem = (hours < 12) ? "<span>AM</span>" : "<span>PM</span>";
     hours = (hours == 0) ? 12 : hours;
     hours = (hours > 12) ? hours - 12 : hours;
-    //Add a zero in front of the numbers <10 
+
+//  Add a zero in front of the numbers <10 
+
     hours = checkTime(hours);
     minutes = checkTime(minutes);
     seconds = checkTime(seconds);
