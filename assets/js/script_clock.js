@@ -19,7 +19,12 @@ const startingTime = function () {
     seconds = checkTime(seconds);
     document.getElementById("clock").innerHTML = hours + ":" + minutes + ":" + seconds + " " + timeSystem;
 
+    /**
+     * Add months
+     */
+
     var months = ['Enero', 'Fabrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+
     var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     var currentWeekDay = days[currentDate.getDay()];
     var currentDay = currentDate.getDate();
