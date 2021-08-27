@@ -12,7 +12,9 @@ const startingTime = function () {
     hours = (hours == 0) ? 12 : hours;
     hours = (hours > 12) ? hours - 12 : hours;
 
-//  Add a zero in front of the numbers <10 
+    /* Add a zero in front of the numbers <10
+     *
+     */
 
     hours = checkTime(hours);
     minutes = checkTime(minutes);
@@ -30,6 +32,11 @@ const startingTime = function () {
     var currentDay = currentDate.getDate();
     var currentMonth = months[currentDate.getMonth()];
     var currentYear = currentDate.getFullYear();
+
+    /**
+     * View data in HTML
+     */
+    
     var date = currentWeekDay + ", " + currentDay + " " + currentMonth + " " + currentYear;
     document.getElementById("date").innerHTML = currentDate;
 
