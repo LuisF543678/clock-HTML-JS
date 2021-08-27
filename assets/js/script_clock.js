@@ -38,8 +38,15 @@ const startingTime = function () {
      */
     
     var date = currentWeekDay + ", " + currentDay + " " + currentMonth + " " + currentYear;
+
+    /**
+     * Show date
+     */
     document.getElementById("date").innerHTML = currentDate;
 
+    /**
+     * Starting date
+     */
     const time = setTimeout(function () {
         startingTime()
     }, 500);
